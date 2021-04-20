@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 900px;
+}
+
+canvas{
+   border: 5px solid #a2a2a2;
+   margin-left: 10px;
+   margin-right: 10px; 
+}
+
+.canvas-tools{
+    background-color: #a2a2a2;
+    width: 800px;
+    padding: 1rem 0;
+    display: flex;
+}
+
+.tool{
+    margin: 0 1rem;
+}
+
+.tool *{
+    height: 50px;
+    width: 50px;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.tools-close{
+    margin-left: auto;
+}
+
+
+

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Drawing App</title>
+</head>
+<body>
+    <canvas class="drawingBoard" width="790px" height="800px">
+
+    </canvas>
+    <div class="canvas-tools">
+        <span class="tool tools-size">
+            <button class="decreaseSize">-</button>
+            <input type="text" class="drawSize" disabled value="10">
+            <button class="increaseSize">+</button>
+        </span>
+        <span class="tool tools-color">
+            <input type="color" class="drawingColor">
+        </span>
+
+        <span class="tool tools-close">
+            <button class="clearCanvas">X</button>
+        </span>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
